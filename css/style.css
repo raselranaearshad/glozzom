@@ -1,0 +1,110 @@
+/* Header Section Start */
+.navbar-dark{
+  background: black;
+}
+.navbar-toggler{
+  color: transparent;
+}
+/* Carousel Start */
+#showCase .carousel-item{
+  height: 450px;
+}
+#showCase .carousel_img_1{
+  background: url(../img/image1.jpeg) center no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+#showCase .carousel_img_2{
+  background: url(../img/image2.jpeg) center no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+#showCase .carousel_img_3{
+  background: url(../img/image3.jpeg) center no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+/* Carousel End */
+/* Get Started Section Start */
+#getStarted{
+  background: url(../img/bg1.jpeg) top no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#getStarted .dark_overlay{
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Get Started Section End */
+/* Home Video Section Start */
+#homeVideo{
+  background: url(../img/people.jpeg) no-repeat;
+  width: 100%;
+  background-position: top top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#homeVideo .dark_overlay{
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Home Video Section End */
+
+/* Photo Gallary Section Start */
+#photoGallary img{
+  min-height: 295px;
+}
+/* Copyright Section Start */
+#copyRight{
+  background: #000;
+}
+/* Copyright Section End */
+
+/* About Page  */
+#about_page_header{
+  background: url(../img/image1.jpeg) top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* About Info Section */
+#about_info img{
+  width: 400px;
+  height: 400px;
+}
+
+#about_testimonial .slick-prev::before, .slick-next::before{
+  color: #000;
+}
+/* About Page End */
+
+/* Service Page Start */
+#service_page_header{
+  background: url(../img/image3.jpeg) top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Blog Page Start */
+#blog_page_header{
+  background: url(../img/image4.jpeg) top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Contact Page Start */
+#contact_page_header{
+  background: url(../img/image3.jpeg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

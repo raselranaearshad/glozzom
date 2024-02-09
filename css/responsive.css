@@ -1,0 +1,12 @@
+/* Screen Md */
+@media (max-width: 767px){
+  #getStarted{
+    min-height: 300px;
+  }
+}
+/* Screen Extra Sm */
+@media (max-width: 480px){
+  #getStarted{
+    min-height: 350px;
+  }
+}
